@@ -1,0 +1,85 @@
+body{
+	font-family: comic sans ms;
+	font-size: 20px;
+	background-image: url('bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.container{
+	position: fixed;
+	top: 10%;
+	left: 35%;
+	width: 30%;
+	height: 60%;
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 1%;
+	border-radius: 8px;
+	border: solid 1px blue;
+}
+div.screen{
+	position: relative;
+	left: 2%;
+	width: 94%;
+	height: 20%;
+	background-color: white;
+	text-align: right;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.keypad{
+	width: 100%;
+	height: 100%;
+}
+button{
+	width: 24%;
+	height: 90%;
+	border: none;
+	background-color: #e1e1e1;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: inherit;
+	text-align: center;
+}
+button:hover{
+	filter: brightness(90%);
+}
+button#equal{
+	background-color: #e6920b;
+	color: white;
+}
+button#cancel{
+	color: red;
+}
+button#fa{
+	background-image: url('bs.svg');
+	background-size: 30px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+h1{
+	margin: 0px;
+}
+
+div.btnContainerN{
+	width: 85%;
+	height: 12%;
+	display: inline-flex;
+	justify-content: space-around;
+}
+div.btnContainerS{
+	width: 85%;
+	height: 12%;
+	display: inline-flex;
+	justify-content: space-around;
+}
+button#convert{
+	background-image: url('convert.png');
+	background-size: 30px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+button#scientific{
+	background-color: #fcf2cf;
+}
