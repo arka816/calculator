@@ -71,7 +71,7 @@ class Test extends React.Component {
 			else if(index === 5)
 				op = "^";
 
-			this.setState({question: str1+op+this.fact(num), answer: this.fact(num)});
+			this.setState({question: str1+op+this.fact(num)});
 			this.setState({display: this.state.display+"!"});
 		}
 		else
